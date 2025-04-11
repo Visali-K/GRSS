@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRSS - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    .bg-hero {
+      background-image: url('https://images.unsplash.com/photo-1517976487492-5750f3195933?fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    .glass {
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-white font-sans scroll-smooth">
+  <!-- Navbar -->
+  <header class="bg-black bg-opacity-70 fixed top-0 left-0 right-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+      <div class="text-2xl font-extrabold text-blue-400">GRSS</div>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-blue-400">Home</a>
+        <a href="events.html" class="hover:text-blue-400">Events</a>
+        <a href="projects.html" class="hover:text-blue-400">Projects</a>
+        <a href="about.html" class="hover:text-blue-400">About Us</a>
+        <a href="join.html" class="hover:text-blue-400">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="bg-hero h-screen flex items-center justify-center relative">
+    <div class="glass rounded-xl px-6 py-12 text-center max-w-3xl shadow-lg">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow">GEO SCIENCE & REMOTE SENSING</h1>
+      <p class="text-blue-200 mb-6">Advancing innovation through Earth observation and data science.</p>
+      <a href="join.html" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-semibold transition">Join Us</a>
+    </div>
+  </section>
+
+  <!-- Vision & Mission -->
+  <section class="py-20 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-400 mb-8">Our Vision</h2>
+      <p class="text-gray-300 mb-12">To be a leading community in Earth observation and geospatial intelligence, empowering change-makers with scientific and technological innovation.</p>
+      <h2 class="text-3xl font-bold text-blue-400 mb-8">Our Mission</h2>
+      <p class="text-gray-300">To foster collaboration, knowledge-sharing, and advancements in remote sensing through events, research, and global partnerships.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 px-6 bg-gray-950">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-400 mb-12">Testimonials</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-6 rounded-xl shadow">
+          <p class="text-gray-300 mb-4">“GRSS helped me explore new opportunities in the geospatial field.”</p>
+          <p class="text-blue-400 font-semibold">– Aisha R.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow">
+          <p class="text-gray-300 mb-4">“The events and resources have been invaluable for my research.”</p>
+          <p class="text-blue-400 font-semibold">– Dr. Martin K.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow">
+          <p class="text-gray-300 mb-4">“Joining GRSS was the best career move I made.”</p>
+          <p class="text-blue-400 font-semibold">– Priya S.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer with Socials -->
+  <footer class="bg-black py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center md:text-left grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-bold text-blue-400">IEEE GRSS</h3>
+        <p class="text-gray-400 mt-2">Empowering geoscientists and engineers to shape the future of remote sensing.</p>
+      </div>
+      <div class="flex justify-center md:justify-end items-center space-x-6 text-xl mt-4 md:mt-0">
+        <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <p class="text-center text-gray-500 mt-6 text-sm">&copy; 2025 IEEE GRSS. All rights reserved.</p>
+  </footer>
+</body>
+</html>
