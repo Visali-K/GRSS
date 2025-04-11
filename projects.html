@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GRSS - Projects</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-950 text-white">
+  <script>AOS.init();</script>
+
+  <header class="bg-black bg-opacity-70 fixed top-0 left-0 right-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+      <div class="text-2xl font-extrabold text-blue-400">GRSS</div>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-blue-400">Home</a>
+        <a href="events.html" class="hover:text-blue-400">Events</a>
+        <a href="projects.html" class="text-blue-400">Projects</a>
+        <a href="about.html" class="hover:text-blue-400">About Us</a>
+        <a href="join.html" class="hover:text-blue-400">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pt-32 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h1 class="text-4xl font-bold text-blue-400 mb-12 text-center" data-aos="fade-up">Our Projects</h1>
+      <div class="grid md:grid-cols-3 gap-8" data-aos="fade-up" data-aos-delay="100">
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h2 class="text-xl font-semibold mb-2 text-blue-300">Satellite Soil Monitoring</h2>
+          <p class="text-gray-300">A collaborative effort to monitor soil moisture using satellite-based remote sensing technologies for agricultural optimization.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h2 class="text-xl font-semibold mb-2 text-blue-300">Urban Heat Mapping</h2>
+          <p class="text-gray-300">Using drones and thermal sensors, this project identifies urban heat islands to support city planning and climate resilience.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h2 class="text-xl font-semibold mb-2 text-blue-300">AI for Wildfire Detection</h2>
+          <p class="text-gray-300">An AI-based system trained to analyze satellite imagery and detect wildfire-prone areas in real time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

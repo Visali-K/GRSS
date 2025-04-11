@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRSS - Join</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-950 text-white font-sans">
+  <script>AOS.init();</script>
+
+  <header class="bg-black bg-opacity-70 fixed top-0 left-0 right-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+      <div class="text-2xl font-extrabold text-blue-400">GRSS</div>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-blue-400">Home</a>
+        <a href="events.html" class="hover:text-blue-400">Events</a>
+        <a href="projects.html" class="hover:text-blue-400">Projects</a>
+        <a href="about.html" class="hover:text-blue-400">About Us</a>
+        <a href="join.html" class="text-blue-400">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pt-32 px-6">
+    <div class="max-w-xl mx-auto text-center" data-aos="zoom-in">
+      <h1 class="text-4xl font-bold text-blue-400 mb-8">Become a Member</h1>
+      <p class="text-gray-300 mb-8">Join our passionate community and help shape the future of remote sensing and geospatial technologies.</p>
+      <form class="space-y-6">
+        <input type="text" placeholder="Full Name" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none" required>
+        <input type="email" placeholder="Email" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none" required>
+        <textarea placeholder="Why do you want to join?" rows="4" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none"></textarea>
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-semibold transition">Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

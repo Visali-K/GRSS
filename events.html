@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRSS - Events</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    .nav-link {
+      transition: all 0.3s ease;
+    }
+    .nav-link:hover {
+      transform: translateY(-2px);
+      color: #60a5fa;
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-white font-sans">
+  <script>AOS.init();</script>
+
+  <!-- Navbar -->
+  <header class="bg-black bg-opacity-70 sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+      <div class="flex items-center space-x-3">
+        <img src="image1.png" alt="IEEE Logo" class="h-8">
+        <img src="image2.png" alt="GRSS Logo" class="h-8">
+      </div>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="join.html" class="nav-link">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Events Section -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h1 class="text-4xl font-bold text-blue-400 mb-12" data-aos="fade-up">Upcoming Events</h1>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-gray-800 p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="text-xl font-semibold text-blue-300 mb-2">Remote Sensing Summit</h3>
+          <p class="text-gray-400 mb-4">Join researchers from around the world for a global discussion on satellite analytics and climate research.</p>
+          <span class="text-sm text-gray-500">Date: July 10, 2025</span>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="text-xl font-semibold text-blue-300 mb-2">GeoAI Workshop</h3>
+          <p class="text-gray-400 mb-4">Hands-on workshop exploring the intersection of artificial intelligence and geospatial data.</p>
+          <span class="text-sm text-gray-500">Date: August 5, 2025</span>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="300">
+          <h3 class="text-xl font-semibold text-blue-300 mb-2">Student Research Symposium</h3>
+          <p class="text-gray-400 mb-4">A platform for students to showcase their geoscience and remote sensing research projects.</p>
+          <span class="text-sm text-gray-500">Date: September 2, 2025</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center md:text-left grid md:grid-cols-2 gap-8">
+      <div data-aos="fade-right">
+        <div class="flex items-center space-x-4 mb-2">
+          <img src="image1.png" alt="IEEE Logo" class="h-6">
+          <img src="image2.png" alt="GRSS Logo" class="h-6">
+        </div>
+        <h3 class="text-xl font-bold text-blue-400">IEEE GRSS</h3>
+        <p class="text-gray-400 mt-2">Empowering geoscientists and engineers to shape the future of remote sensing.</p>
+      </div>
+      <div class="flex justify-center md:justify-end items-center space-x-6 text-xl mt-4 md:mt-0" data-aos="fade-left">
+        <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <p class="text-center text-gray-500 mt-6 text-sm">&copy; 2025 IEEE GRSS. All rights reserved.</p>
+  </footer>
+</body>
+</html>
